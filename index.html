@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Leti's Studio de Beleza · Barreiro</title>
+<meta property="og:image" content="og.png">
+<meta name="description" content="Depilação a laser, design de sobrancelhas com henna, micropigmentação, threading e pestanas no Barreiro. Marcações pelo WhatsApp.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<!-- Confirmar no sábado: piso/loja e os passos do caminho (procura CONFIRMAR). -->
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BeautySalon","name":"Leti's Studio de Beleza","telephone":"+351939130311","address":{"@type":"PostalAddress","streetAddress":"R. Stara-Zagora 30A","postalCode":"2830-302","addressLocality":"Barreiro","addressCountry":"PT"},"sameAs":["https://www.instagram.com/leticia_santos_studio_/"],"makesOffer":["Depilação a laser","Design de sobrancelhas com henna","Micropigmentação","Threading","Extensão de pestanas"]}
+</script>
+<style>
+:root{--noite:#16213a;--noite2:#26385f;--prata:#d6dae2;--ceu:#eef4fb;--ouro:#c9a86a;--txt:#1d2433;--mute:#5d6678;--wa:#25d366}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Inter,system-ui,sans-serif;color:var(--txt);background:#fff;line-height:1.6}
+.serif{font-family:"Cormorant Garamond",Georgia,serif}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+header{background:linear-gradient(170deg,var(--noite),var(--noite2));color:#fff;padding:22px 0 80px}
+nav{display:flex;justify-content:space-between;align-items:center}
+.logo{display:flex;align-items:center;gap:10px;font-size:15px;letter-spacing:.08em;color:var(--prata)}
+.mono{width:42px;height:42px;border:1.5px solid var(--prata);border-radius:50%;display:grid;place-items:center;font-family:"Cormorant Garamond",serif;font-size:22px;font-style:italic}
+nav a.btn-sm{color:#fff;text-decoration:none;border:1px solid rgba(255,255,255,.4);padding:8px 16px;border-radius:999px;font-size:14px}
+.topo{display:grid;grid-template-columns:1.15fr .85fr;gap:36px;align-items:center}
+.hero{padding-top:70px;max-width:640px}
+.hero-foto{margin-top:56px;border-radius:200px 200px 24px 24px;overflow:hidden;border:1px solid rgba(255,255,255,.25);aspect-ratio:4/5;max-width:100%}
+.hero-foto img{width:100%;height:100%;object-fit:cover;display:block}
+.galeria{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.galeria figure{margin:0;position:relative;border-radius:16px;overflow:hidden;aspect-ratio:1}
+.galeria img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .4s}
+.galeria figure:hover img{transform:scale(1.04)}
+.galeria figcaption{position:absolute;left:10px;bottom:10px;background:rgba(22,33,58,.82);color:#fff;font-size:12px;padding:4px 10px;border-radius:999px}
+.sobre{display:grid;grid-template-columns:220px 1fr;gap:32px;align-items:center}
+.sobre img{width:220px;height:220px;border-radius:50%;object-fit:cover;border:4px solid var(--ceu)}
+.sobre p{color:var(--mute);max-width:560px}
+.sobre .assina{font-family:"Cormorant Garamond",serif;font-style:italic;font-size:28px;color:var(--noite2);margin-top:10px}
+.kicker{text-transform:uppercase;letter-spacing:.2em;font-size:13px;color:var(--prata)}
+h1{font-size:clamp(44px,8vw,76px);line-height:1.02;font-weight:500;margin:14px 0 18px}
+h1 em{color:var(--ouro)}
+.hero p{color:#c9d0de;font-size:18px;max-width:520px}
+.ctas{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:14px 24px;border-radius:999px;font-weight:600;text-decoration:none;font-size:16px}
+.btn-wa{background:var(--wa);color:#fff}
+.btn-ghost{border:1px solid rgba(255,255,255,.5);color:#fff}
+section{padding:72px 0}
+h2{font-size:clamp(32px,5vw,46px);font-weight:500;line-height:1.1;margin-bottom:10px}
+.sub{color:var(--mute);margin-bottom:34px;max-width:560px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}
+.card{border:1px solid #e3e7ee;border-radius:18px;padding:24px;background:#fff}
+.card h3{font-size:24px;font-weight:600;margin-bottom:6px}
+.card p{color:var(--mute);font-size:15px}
+.card .tag{display:inline-block;margin-top:14px;font-size:13px;color:var(--noite2);background:var(--ceu);padding:4px 10px;border-radius:999px}
+.laser{background:var(--ceu)}
+.laser-box{display:grid;grid-template-columns:1.1fr 1fr;gap:36px;align-items:start}
+.oferta{background:var(--noite);color:#fff;border-radius:22px;padding:30px}
+.oferta .kicker{color:var(--ouro)}
+.oferta h3{font-size:40px;font-weight:500;margin:8px 0}
+.oferta p{color:#c9d0de;margin-bottom:20px}
+details{border-bottom:1px solid #d5dde8;padding:16px 0}
+summary{cursor:pointer;font-weight:600;list-style:none;display:flex;justify-content:space-between}
+summary::after{content:"+";color:var(--noite2)}
+details[open] summary::after{content:"–"}
+details p{color:var(--mute);margin-top:8px;font-size:15px}
+.passos{counter-reset:p;display:grid;gap:14px;margin-top:10px}
+.passo{display:flex;gap:16px;align-items:flex-start;border:1px solid #e3e7ee;border-radius:16px;padding:18px}
+.passo::before{counter-increment:p;content:counter(p);flex:none;width:34px;height:34px;border-radius:50%;background:var(--noite);color:#fff;display:grid;place-items:center;font-weight:600}
+.mapa{border-radius:18px;overflow:hidden;border:1px solid #e3e7ee;min-height:320px}
+.mapa iframe{width:100%;height:100%;min-height:320px;border:0}
+.regras{background:#fafbfd;border-radius:18px;padding:24px;margin-top:24px;font-size:15px;color:var(--mute)}
+.regras b{color:var(--txt)}
+footer{background:var(--noite);color:var(--prata);padding:40px 0;font-size:14px}
+footer a{color:#fff}
+.wa-float{position:fixed;right:18px;bottom:18px;background:var(--wa);color:#fff;width:58px;height:58px;border-radius:50%;display:grid;place-items:center;box-shadow:0 8px 24px rgba(0,0,0,.25)}
+@media(max-width:760px){.topo{grid-template-columns:1fr}.hero-foto{margin-top:8px;max-height:420px}.galeria{grid-template-columns:repeat(2,1fr)}.sobre{grid-template-columns:1fr;text-align:center;justify-items:center}.sobre img{width:170px;height:170px}.laser-box{grid-template-columns:1fr}header{padding-bottom:56px}.hero{padding-top:44px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <nav>
+      <div class="logo"><img src="logo.png" alt="Leti's Studio de Beleza" style="height:54px;width:auto"></div>
+      <a class="btn-sm" href="#chegar">Como chegar</a>
+    </nav>
+    <div class="topo">
+    <div class="hero">
+      <div class="kicker">Barreiro · mais de 10 anos a cuidar de mulheres</div>
+      <h1 class="serif">O teu olhar,<br><em>a tua pele</em>, sem pressas.</h1>
+      <p>Depilação a laser, sobrancelhas com henna natural, micropigmentação, threading e pestanas. Marcas em 1 minuto pelo WhatsApp.</p>
+      <div class="ctas">
+        <a class="btn btn-wa" href="https://wa.me/351939130311?text=Ol%C3%A1%20Let%C3%ADcia%2C%20vi%20o%20site%20e%20quero%20marcar" data-preencher="WHATS">Marcar pelo WhatsApp</a>
+        <a class="btn btn-ghost" href="#laser">Laser: oferta de lançamento</a>
+      </div>
+    </div>
+    <div class="hero-foto"><img src="fotos/hero.jpg" alt="Sobrancelhas com henna feitas no Leti's Studio"></div>
+    </div>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <h2 class="serif">Serviços</h2>
+    <p class="sub">Atendimento individual, com marcação. Os preços são confirmados por mensagem.</p>
+    <div class="grid">
+      <div class="card"><h3 class="serif">Depilação a laser</h3><p>Menos pêlos a cada sessão e adeus pêlos encravados. Axilas, buço, virilha, pernas.</p><span class="tag">Novo no studio</span></div>
+      <div class="card"><h3 class="serif">Sobrancelhas com henna</h3><p>Design pensado para o teu rosto, com henna natural que dura dias.</p><span class="tag">A especialidade</span></div>
+      <div class="card"><h3 class="serif">Micropigmentação</h3><p>Sobrancelhas preenchidas todos os dias, sem maquilhagem.</p></div>
+      <div class="card"><h3 class="serif">Threading</h3><p>Depilação com linha: precisa e suave para a pele do rosto.</p></div>
+      <div class="card"><h3 class="serif">Pestanas</h3><p>Extensões fio a fio e volume brasileiro.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="trabalhos" style="padding-top:0">
+  <div class="wrap">
+    <h2 class="serif">Trabalhos reais</h2>
+    <p class="sub">Clientes do studio, sem filtros. Vê mais no <a href="https://www.instagram.com/leticia_santos_studio_/" style="color:var(--noite2)">Instagram</a>.</p>
+    <div class="galeria">
+      <figure><img src="fotos/g1.jpg" alt="Sobrancelhas com henna" loading="lazy"><figcaption>Sobrancelhas com henna</figcaption></figure>
+      <figure><img src="fotos/g2.jpg" alt="Antes e depois" loading="lazy"><figcaption>Antes e depois</figcaption></figure>
+      <figure><img src="fotos/g3.jpg" alt="Design natural" loading="lazy"><figcaption>Design natural</figcaption></figure>
+      <figure><img src="fotos/g4.jpg" alt="Antes e depois" loading="lazy"><figcaption>Antes e depois</figcaption></figure>
+      <figure><img src="fotos/g5.jpg" alt="Pestanas" loading="lazy"><figcaption>Pestanas</figcaption></figure>
+      <figure><img src="fotos/g6.jpg" alt="Design de sobrancelhas" loading="lazy"><figcaption>Design de sobrancelhas</figcaption></figure>
+      <figure><img src="fotos/g7.jpg" alt="Antes e depois" loading="lazy"><figcaption>Antes e depois</figcaption></figure>
+      <figure><img src="fotos/g8.jpg" alt="Volume de pestanas" loading="lazy"><figcaption>Volume de pestanas</figcaption></figure>
+      <figure><img src="fotos/g9.jpg" alt="Sobrancelhas masculinas" loading="lazy"><figcaption>Sobrancelhas masculinas</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="laser" id="laser">
+  <div class="wrap laser-box">
+    <div>
+      <h2 class="serif">Depilação a laser no Barreiro</h2>
+      <p class="sub">Tudo o que as clientes perguntam antes da primeira sessão.</p>
+      <details><summary>Dói?</summary><p>A maioria sente só um calor rápido, como um pequeno estalo. A Letícia ajusta a intensidade à tua pele.</p></details>
+      <details><summary>Quantas sessões são precisas?</summary><p>Normalmente entre 6 e 10, com intervalo de 4 a 6 semanas. Na primeira sessão avaliamos a tua pele e o teu pêlo.</p></details>
+      <details><summary>Que zonas posso fazer?</summary><p>Buço, axilas, virilha, pernas, braços e outras. Pergunta pela zona que queres.</p></details>
+      <details><summary>Como me preparo?</summary><p>Rapa a zona na véspera, não uses cera nem pinça nas 4 semanas antes e evita o sol nos dias anteriores.</p></details>
+    </div>
+    <div class="oferta">
+      <div class="kicker">Oferta de lançamento</div>
+      <h3 class="serif">1.ª sessão com desconto</h3>
+      <p>Vagas limitadas em novembro e dezembro. Traz uma amiga e as duas ganham.</p>
+      <a class="btn btn-wa" href="https://wa.me/351939130311?text=Ol%C3%A1%2C%20quero%20a%20oferta%20do%20laser" data-preencher="WHATS">Quero a oferta</a>
+    </div>
+  </div>
+</section>
+
+<section id="sobre" style="padding-bottom:0">
+  <div class="wrap sobre">
+    <img src="fotos/leticia.jpg" alt="Letícia Santos">
+    <div>
+      <h2 class="serif">Olá, sou a Letícia</h2>
+      <p>Há mais de 10 anos que cuido de mulheres, e agora faço-o no Barreiro. Especializei-me em design de sobrancelhas com henna natural, micropigmentação, threading e pestanas. Trouxe para o studio a depilação a laser. Cada atendimento é só teu, com tempo e sem pressas.</p>
+      <div class="assina">Letícia Santos</div>
+    </div>
+  </div>
+</section>
+
+<section id="chegar">
+  <div class="wrap">
+    <h2 class="serif">Como chegar</h2>
+    <p class="sub">O studio fica dentro de um centro, por isso deixamos aqui o caminho passo a passo.</p>
+    <div class="laser-box">
+      <div class="passos">
+        <!-- CONFIRMAR no sábado: referências do caminho -->
+        <div class="passo"><div><b>Rua Stara-Zagora, 30A</b><br><span style="color:var(--mute)">2830-302 Barreiro, mesmo em frente ao Barra Shopping.</span></div></div>
+        <div class="passo"><div><b>Entra pela porta do n.º 30A</b><br><span style="color:var(--mute)">O studio fica lá dentro, com o logótipo Leti's na porta.</span></div></div>
+        <div class="passo"><div><b>Perdida? Manda mensagem</b><br><span style="color:var(--mute)">Responde-se logo e vamos ter contigo à entrada: <a href="https://wa.me/351939130311">939 130 311</a>.</span></div></div>
+      </div>
+      <div class="mapa">
+                <iframe loading="lazy" title="Mapa" src="https://www.google.com/maps?q=R.%20Stara-Zagora%2030A%2C%202830-302%20Barreiro&output=embed"></iframe>
+      </div>
+    </div>
+    <div class="regras">
+      <b>Para todas termos tempo de qualidade:</b> há 10 minutos de tolerância. Depois disso, o serviço é encurtado ou remarcado. Para o laser pedimos um sinal na marcação, descontado no dia.
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    Leti's Studio de Beleza · R. Stara-Zagora 30A, 2830-302 Barreiro · 939 130 311 · <a href="https://www.instagram.com/leticia_santos_studio_/">@leticia_santos_studio_</a><br>
+    Atendimento com marcação · <a href="https://wa.me/351939130311" data-preencher="WHATS">WhatsApp</a>
+  </div>
+</footer>
+
+<a class="wa-float" href="https://wa.me/351939130311" aria-label="WhatsApp" data-preencher="WHATS">
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8"><path d="M21 12a8.5 8.5 0 0 1-12.6 7.4L3 21l1.6-5.4A8.5 8.5 0 1 1 21 12z"/></svg>
+</a>
+</body>
+</html>
